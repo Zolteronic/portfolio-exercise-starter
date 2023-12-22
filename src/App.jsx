@@ -5,6 +5,7 @@ import { PortfolioItemPage } from "./pages/PortfolioItemPage";
 import { PortfolioPage } from "./pages/PortfolioPage";
 
 export const App = () => {
+  // eslint-disable-next-line no-unused-vars
   const [selectedItem, setSelectedItem] = useState(portfolioItems[0]);
 
   return (
